@@ -1,6 +1,10 @@
 body {
     background-color: hsl(229, 57%, 11%);
-    width: 1400px;
+    background-image: url(/images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    width: 1440px;
     height: 700px;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
@@ -20,7 +24,6 @@ span {
 }
 
 .main-container {
-    width: auto;
     height: 700px;
     display: flex;
     flex-direction: column;
@@ -114,7 +117,7 @@ span {
     border-right: 12px solid white;
     border-top: 12px solid white;
     border-bottom: 12px solid transparent;
-    right: 394px;
+    right: 374px;
     top: 321px;
 }
 
